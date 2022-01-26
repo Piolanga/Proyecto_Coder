@@ -5,8 +5,8 @@ from django.forms import CharField, EmailField, IntegerField
 # Create your models here.
 
 class Curso(Model):
-    asignatura = CharField(max_length=30)
-    seccion = IntegerField()
+    nombre = CharField(max_length=30)
+    camada = IntegerField()
 
 class Estudiante(Model):
     nombre = CharField(max_length=30)

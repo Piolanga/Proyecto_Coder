@@ -6,4 +6,9 @@
 
 {% block contenidoQueCambia %}
     <h3> Estos son algunso de nuestros estudiantes, no dudes en contactarlos para pedir informacion </h3>
+
+    {% for nombre in Estudiantes %}
+    {{ nombre }}
+    <br>
+    {% endfor %}
 {% endblock %}

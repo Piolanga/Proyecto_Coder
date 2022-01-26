@@ -6,4 +6,9 @@
 
 {% block contenidoQueCambia %}
     <h3> Estos son los cursos que se imparten, si quieres mas informacion contacnos</h3>
+
+    {% for curso in cursos %}
+      {{ curso }}
+      <br>
+    {% endfor %}
 {% endblock %}

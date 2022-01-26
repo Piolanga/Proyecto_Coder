@@ -6,4 +6,9 @@
 
 {% block contenidoQueCambia %}
     <h3> Conoce a nuestros docentes y los cursos que imparte cada uno </h3>
+
+    {% for nombre in Profesores %}
+    {{ nombre }}
+    <br>
+    {% endfor %}
 {% endblock %}
